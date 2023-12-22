@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+
+</head>
+<style>
+    @font-face {
+        font-family: 'Pantry' ;
+        src: url('Pantry.ttf') format('truetype'), url('Rustic\ Pantry.otf') fotmat('opentype');
+        font-weight:normal;
+        font-style: normal;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: black;
+        
+    
+      }
+       
+      /*
+           Tipos de format()
+           - opentype(otf)
+           - truetype(ttf)
+           - anbedded-opentype
+           - truetype-aat(apple advanced typegraphy)
+           - svg
+        
+        */
+    h1{ 
+        font-size: 'Pantry', times, serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+
+
+</style>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus odio beatae sint. Tempore reprehenderit, sit amet modi ullam similique, cumque itaque facere, corrupti sapiente saepe expedita neque consequuntur recusandae.</p>
+    
+</body>
+</html>
