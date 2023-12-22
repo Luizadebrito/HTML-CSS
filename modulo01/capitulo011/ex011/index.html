@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+
+    <H1>Imagem dinamica</H1>
+    <p>tente criar esse site em varios dispositivoss diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+  <picture>
+    <!--MAX-WIDTH é largura-->
+
+       <source media="(max-width: 750px)" 
+    srcset="imagens02/tamanhoP.png" type="image/png">
+
+       <source media="(max-width: 1050px )" srcset="imagens02/tamanhoM.png" type="image/png">
+    
+       <img src="imagens02/tamanhoG.png" 
+    alt="Imagem flexível">
+    
+    <!--Figura de base sempre em baixo e figuras secundárias em cima na ordem que quiser mostrar no site-->
+
+    <h1>Reproduzindo aúdio</h1>
+    <!--forma mais simples de colocar audio-->
+         <p>vamos aprender a reproduzir áudios em HTML5 </p>
+           <audio src="imagens02/gridlock - john patitucci.mp3" controls autoplay></audio>
+          <!--MP3 WAV OGG, PARA TER compatibilidade com todos os navegadores-->
+          <!-- outra forma de adicionar audio-->
+      
+          <audio preload="metadata" autoplay controls loop> 
+            <source src="imagens02/gridlock - john patitucci.mp3" type="audio/mpeg">
+            <!--outros exemplos abaixo-->
+            <source src="media02/gridlock - john patitucci.ogg" type="audio/ogg">
+            <source src="media02/gridlock - john patitucci.wav" type="media/wav"> <!--audio WAV, -->
+            
+         </audio>
+         <!--Se não conseguir ouvir o audio eu vou falar-->
+           <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="imagens02/gridlock - john patitucci.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+            
+
+
+  </picture>
+    
+</head>
+<body>
+    
+</body>
+</html>
