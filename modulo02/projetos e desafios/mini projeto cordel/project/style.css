@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    font-size: 3em;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 0px;
+}
+
+.basico{
+  font-family: 'Open Sans', cursive;
+  font-size: 0.5em;
+}
+
+article > p{
+  text-align: justify;
+    background-color: rgba(169, 169, 169, 0.062);
+    position: relative;
+    font-size: 3em;
+    padding: 30px;
+    margin: 0%;
+}
+
+main img{
+    width: 100%;
+}
+
+.container {
+   
+    height: auto;
+    display: inline-block;
+    position: relative;
+  }
+
+  .container p {
+    background: fixed;
+    width:30%;
+    height: 40%;
+    background-color:rgba(0, 0, 0, 0.199);
+    position: absolute;
+    top: 140px;
+    left: 6px;
+    font-size: 40px;
+    color: white;
+  }
+
+
+  

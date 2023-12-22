@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        /*
+            Parâmetros de BOX-SHADOW
+        Primeira configuração do BOX- SHADOW: é o deslocamento horizontal
+        Segunda: deslocamento vertical
+        Terceira: bluar
+        Quarta: Spread
+        Quinta: cor
+        Sexto: Inset
+        */
+    
+      body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #726DA8;
+        margin: 0%;
+      }
+       header{
+        background-color: white;
+       padding: 10px 10px 40px 2px;
+       margin: 10px 4px 10px 4px;
+       text-align: center;
+       border-radius: 10px;
+       font-size: 30px;
+       
+       }
+
+        main{
+            background-color: #633c3e;
+            color: white;
+            margin: 1px ;
+            padding: 10px 2px 100px 15px;
+            font-size: 20px;border-radius: 10px 0px;
+            box-shadow: 10px  10px 10px 10px rgba(0, 0, 0, 0.404);
+            
+
+            
+        }
+
+        article > aside{
+            font-weight: 300;
+            margin: auto;
+            color: #130303;
+            padding: 2px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+            
+        }
+
+        article{
+          background-color: gray;
+          
+
+        }
+        nav{
+            background-color: #bab5d4;
+            text-align: left;
+
+        }
+         nav{
+            background-color: darkgray;
+            padding: 3px;
+            box-shadow: 3px 7px 1px rgba(0, 0, 0, 0.445);
+         }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color:#130303 ;
+            color: whitesmoke;
+            padding: 8px;
+            text-align: center;
+            margin: auto;
+            font-size: 15px;
+            border-radius: 2,5px;
+        }
+
+        footer > p{
+            margin: 5px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 100%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+   <header>
+     <h1>Meu site</h1>
+     <nav>
+        <a href="">link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+   </header>
+   <main>
+     <section id="assuntos">
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse architecto quod fugiat error eos incidunt vero facere consectetur iure eligendi provident earum doloremque iste, rerum corrupti voluptatum itaque odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates, rem sed quam suscipit distinctio magnam error animi necessitatibus culpa laboriosam reiciendis numquam, ea cumque, dolores tempore praesentium nobis facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, dolorem accusantium nulla iure explicabo maiores aspernatur laudantium veritatis eum aperiam voluptatem recusandae harum cupiditate fugiat magni? Veritatis autem laborum culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestias et nihil ipsum enim, dicta nesciunt fugit necessitatibus exercitationem earum? Adipisci cumque consequuntur consequatur cum omnis voluptatum veritatis mollitia eaque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, ad nesciunt similique magnam, minus atque molestias quidem non quisquam dignissimos impedit eveniet cumque molestiae iure reprehenderit consequuntur. Iusto, sequi debitis.</p>
+            <aside>
+                <p>
+                    Artigo escrito por José da Silva
+                </p>
+            </aside>
+        </article>
+     </section>
+
+   </main>
+   <footer>
+    <p>Desenvolvido pelo curso em video</p>
+   </footer>
+   <div id="bola"></div>
+    
+</body>
+</html>

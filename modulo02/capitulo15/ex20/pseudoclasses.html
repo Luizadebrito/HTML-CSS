@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+       <!-- Uma <div> é um elemento HTML utilizado para dividir e agrupar conteúdos de diferentes formas por meio da eplicação do CSS-->
+
+    <style>
+       div{
+        display: inline-block;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+    /*
+    height: altura
+    width: largura
+     */
+       }
+       div:hover /*para iluminar uma div quando passar o mouse por cima E É UMA PSEUDO CLASSE*/{ 
+        background-color: rgb(78, 78, 151);
+     
+       }
+      div:hover.especial{
+        background-color: rebeccapurple;
+      }
+    
+    </style>
+   
+</head>
+<body>
+    <div div:hover id="d1" class="especial">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    
+</body>
+</html>

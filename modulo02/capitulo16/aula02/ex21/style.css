@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(192, 192, 192)
+}
+
+.dotted{
+    color: blue;
+    border-style: dotted;
+    text-align: center;
+    margin: 220px;
+    padding: 30px;
+    font-size: 150px;
+    border-width: 60px;
+    box-shadow:1px 1px 2px 2px rgba(0, 0, 0, 0.233);
+   }
+
+
+   .double{
+    background-color:rgba(3, 3, 248, 0.781);
+    color: white;
+    margin: 220px;
+    padding: 30px;
+    font-size: 120px;
+    border-style: double;
+    border-width: 60px;
+   }
+       .double:hover{
+        border: 20px;
+        background-color:aqua;
+        transition: 1s;
+       }
+
+   .ridge{
+    color: blue;
+    margin: 220px;
+    padding: 30px;
+    font-size: 150px;
+    border-style: ridge;
+    border-width: 60px;
+   }
+    
+
+   .inset{
+    color: blue;
+    margin: 220px;
+    padding: 30px;
+    font-size: 130px;
+    border-top: inset;
+    border-left: inset;
+    border-bottom: inset;
+    border-width: 60px;
+
+   }
+
+   .outset{
+    color: blue;
+    margin: 220px;
+    padding: 30px;
+    font-size: 120px;
+    border-style:outset;
+    border-width: 60px;
+    border-radius: 20px;
+   }
+   
+   .dashed{
+    color: blue;
+    margin: 220px;
+    padding: 30px;
+    font-size: 150px;
+    border-style: dashed;
+    border-width: 60px;
+   }
+
+   .solid{
+    background-color: rgb(114, 200, 221);
+    margin: 220px;
+    padding: 80px;
+    font-size: 110px;
+    
+    border-style: solid;
+    border-width: 30px;
+    border-image: url("border.png") 150 round; 
+    border-image-width: 100px;
+   }
+
+
