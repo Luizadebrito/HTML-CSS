@@ -5,22 +5,30 @@
     padding: 0%;
 }
 
-div.container{
-    position: relative;
-    top: 0%;
-    left:0%;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(espaco.png);
 
+    min-height: 844px;
+    
+
+    /* background-image: linear-gradient( 80deg, red, green, blue) */
 }
 
-div.soon{
-    position: absolute;
-    top: 600px;
-    right: 750px;
+
+@media  screen and (min-width:320px){
+    .img_astronauta{
+        width: 85%;
+        background-image: url();
+    }
 }
 
-img{
-  
+.img_astronauta{
+   
 }
+
 
 
 
