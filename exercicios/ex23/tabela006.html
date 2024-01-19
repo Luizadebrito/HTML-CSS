@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            height: 200px;
+        }
+
+        caption{
+            font-size: 1.3rem;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        td, th{
+            border: 1px solid black;
+        }
+        .cnome{
+            background-color: rgba(0, 0, 255, 0.616);
+        }
+        .csexo{
+            background-color: rgba(216, 112, 147, 0.589);
+        }
+        .cidade{
+            background-color: rgba(0, 0, 255, 0.61);
+        }
+        .cprof{
+            background-color: rgba(216, 112, 147, 0.555);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th  scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Anderson Queiroz</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Flavia Melo</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Atriz</td>
+        </tr>
+        <tr>
+            <td>Rogerio Mendes</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Marceneiro</td>
+        </tr>
+        <tr>
+            <td>Ana Paula</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Chef de Cozinha</td>
+        </tr>
+        <tr>
+            <td>Carlos Santos</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Médico</td>
+        </tr>
+    </table>
+
+    
+    
+</body>
+</html>
