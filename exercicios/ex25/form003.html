@@ -23,7 +23,7 @@
 
         <p>
             <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" minlength="0" maxlength="10" placeholder="0 a 10" size="15" step="0.1" value="5" required>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" size="15" step="0.1" value="5" required>
         </p>
         <p>
             <label for="idia">Dia da prova</label>
@@ -41,6 +41,14 @@
         <p>
             <label for="inumber">Número</label>
             <input type="number" name="number" id="inumber" min="0" max="11">
+        </p>
+
+        <p>
+            <label for="isub">Enviar</label>
+            <input type="submit" name="submit" id="isub">
+            
+            <label for="ires">Limpar</label>
+            <input type="reset" name="reset" id="ires">
         </p>
     </form>
 </body>
