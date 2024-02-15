@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de form</h1>
+
+    <form action="" method="post">
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="estado" id="iestado">
+                <optgroup label="Região Sudeste">
+                    <option value="" selected>---Escolha---</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Professão</label>
+            <input type="text" name="Prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desencolvedor</option>
+                <option value="PROF">Professor</option>
+                <option value="MED">Medicina</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="ifav">Comidas favoritas</label>
+            <select name="fav" id="ifav">
+                <optgroup>
+                    <option value="" selected>---Escolha---</option>
+                <option value="las">Lasanha</option>
+                <option value="PAS">Pastel</option>
+                <option value="Aip">Aipim</option>
+                <option value="stro">Strogonoff</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="ifavo">Comidas Favoritas</label>
+            <input type="text" name="favo" id="ifavo" list="lstfav">
+            <datalist id="lstfav">
+                    <!-- <option value="" selected>---Escolha---</option> -->
+                    <option value="LAS">Lasanha</option>
+                    <option value="PAS">Pastel</option>
+                    <option value="AIP">Aipim</option>
+                    <option value="STRO">Strogonoff</option>
+            </datalist>
+
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="40" rows="10" placeholder="sua mensagem aqui"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" name="submit" id="isubmit">
+            <input type="reset" name="reset" id="ireset">
+        </p>
+
+        
+    </form>
+</body>
+</html>
