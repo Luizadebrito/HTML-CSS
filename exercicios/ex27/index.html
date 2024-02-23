@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de login</title>
+    <style>
+        
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: #222222;
+        } 
+
+        main {
+            display: flex;
+            /* position: relative; */
+            text-align: center;
+            justify-content: center;
+            margin-top: 15%;
+        }
+
+        main > form {
+            display: block;
+            color: #fff ;
+            align-self: center;
+            /* position: absolute;
+            top: 30%;
+            right: 40%; */
+            border: 4px solid #9B06CE;
+            border-radius: 10px;
+            padding: 4rem;
+        }
+
+        input#iemail, input#ipassword {
+            /* width: 250px;
+            height: 50px; */
+            margin-bottom: .4rem;
+            padding: 1.7rem 2.5rem;
+            border: .5px solid #666;
+             border-radius: 10px; 
+        }
+
+        input#isubmit {
+            margin-top: .7rem;
+            padding: 1.2rem 4.7rem;
+            background-color: #9B06CE;
+            border: 1px solid #9B06CE;
+            border-radius: 10px;
+            color: #333;
+        }
+        
+
+    
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <form action="">
+            <div class="login">
+                <label for="iemail"></label>
+                <input type="email" name="email" id="iemail" placeholder="Email">
+            </div>
+            <div class="login">
+                <label for="ipassword"></label>
+                <input type="password" name="password" id="ipassword" placeholder="senha" minlength="8">
+            </div>
+            <div class="submit">
+                <label for="isubmit"></label>
+                <input type="submit" name="submit" id="isubmit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
